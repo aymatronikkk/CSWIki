@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000c7c;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #2E0571;
+    padding: 20px 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #946BD6;
+}
+
+.wrap-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+header a {
+    color: #946BD6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+header a:hover {
+    background-color: #4B2A82;
+    color: #946BD6;
+}
+
+
+header a.active {
+    background-color: #4B2A82;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #9303A7;
+}
+
+.contain h2 {
+    text-align: center;
+}
+
+.contain p {
+    align-items: center;
+    color: white;
+}
+
+.updates {
+    color: #d5bbd8;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.site-footer {
+    background-color: #2E0571;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #946BD6;
+
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+.text-justify {
+    margin-left: 20px;
+}
+
+.copyright-text {
+    margin-left: 20px;
+}
+
+h3{
+    color: #AD66D5;
+    text-align: center;
+}
+
+.content {
+    color: #d5bbd8;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+
+.rightimg {
+    float: right;
+    margin: 7px 7px 7px 0;
+}
+.index{
+    background-image: url(csgo\ logo\ sites.jpg);
+    opacity: 0.4;
+}
+.leftimginfo{
+    margin: 0px 0px 0px 0;
+}
+.inmap{
+    margin-left: 600px;
+}
+.infomap{
+    margin-left: 20px;
+}
+.infomap p {
+    color: antiquewhite;
+}
+.contain{
+    margin-left: 20px;
+}
